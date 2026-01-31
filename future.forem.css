@@ -44,7 +44,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     font-size: 12px;
     margin-right: 10px;
 }
@@ -82,8 +82,22 @@ a {
 }
 
 .right-section {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     width: 200px;
     margin-right: 70px;
+    display: flex;
+    counter-reset: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Great {
+    color: white;
+    background-color: #3d40f3;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    margin-left: auto;
 }
 
