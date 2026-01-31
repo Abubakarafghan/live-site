@@ -27,7 +27,7 @@ body {
 }
 
 .middle-section {
-    background-color: lightpink;
+    /* background-color: lightpink; */
     flex: 1;
     margin-left: 24px;
     margin-right: 250px;
